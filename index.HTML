@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Блочная вёрстка</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+.vanous-nevog {
+  max-width: 1120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.kasavin-egedsa {
+  padding: 15px;
+  cursor: pointer;
+}
+.kasavin-egedsa * {
+  transition: .3s linear;
+}
+.kipasa-demulas {
+  background: hsl(278, 79%, 78%);
+  padding: 38px;
+}
+.amon-saneka {
+  margin-bottom: 20px;
+}
+.amon-saneka:before {
+  content: "";
+  font-family: FontAwesome;
+  color:  #e61d2b;
+  font-size: 60px;
+  line-height: 3px;
+}
+.amon-saneka.photo:before {
+  content: "\f030";
+}
+.amon-saneka.video:before {
+  content: "\f03d";
+}
+.amon-saneka.gift:before {
+  content: "\f06b";
+}
+.amon-saneka.group:before {
+  content: "\f0c0";
+}
+.amon-saneka.tree:before {
+  content: "\f1bb";
+}
+.amon-saneka.anchor:before {
+  content: "\f13d";
+}
+.kasavin-egedsa:hover .amon-saneka, .kasavin-egedsa:hover .muneka-sconsu h3, .kasavin-egedsa:hover .muneka-sconsu p {
+  transform: translateY(-8px);
+}
+.muneka-sconsu {
+  color: #502629;
+  font-size: 14px;
+}
+.muneka-sconsu h3 {
+  font-weight: 500;
+  margin-bottom: 15px;
+  transition-delay: .05s;
+}
+.muneka-sconsu p {
+  transition-delay: .1s;
+}
+.item-footer {
+  padding-top: 15px;
+}
+.link {
+  text-decoration: none;
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  padding-right: 30px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #2b2223;
+}
+.link:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  height: .125rem;
+  margin: auto;
+  background: #d6303b;
+  transform: scaleX(.2);
+  transform-origin: left center;
+  z-index: 0;
+  transition: .6s cubic-bezier(.6, .01, 0, 1);
+}
+.link span {
+  display: inline-block;
+  position: relative;
+  transform: translateX(-200%);
+  transition: .6s cubic-bezier(.6, .01, 0, 1);
+}
+.kasavin-egedsa:hover .link span {
+  transform: translateX(0%);
+}
+.kasavin-egedsa:hover .link:before {
+  transform-origin: right center;
+}
+@media (min-width: 768px) {
+  .kasavin-egedsa {
+  flex-basis: 50%;
+  flex-shrink: 0;
+  }
+}
+@media (min-width: 960px) {
+  .kasavin-egedsa {
+  flex-basis: 33.333333333%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="vanous-nevog">
+<div class="kasavin-egedsa">
+<div class="kipasa-demulas">
+<div class="amon-saneka group"></div>
+<div class="muneka-sconsu">
+<h3>Оптический компьютер</h3>
+<p>Полезность любой технологии измеряется ее актуальностью, поэтому разработка оптических компьютеров стала одной из популярных тем сегодня. Оптические компьютеры - одна из самых популярных тем. Все преимущества позволяют удостовериться в их необходимости уже сегодня.</p>
+</div>
+<div class="item-footer">
+<a href="SH2.html" class="link"><span>Далее</span></a>
+</div>
+</div>
+</div>
+
+<div class="kasavin-egedsa">
+<div class="kipasa-demulas">
+<div class="amon-saneka tree"></div>
+<div class="muneka-sconsu">
+<h3>Описание технологий</h3>
+<p>На примере процессоров можно разобраться, зачем нужны оптические компьютеры. Когда придет время того, что уменьшать техпроцесс ЦП будет уже некуда, закон Мура перестанет быть полезным. На данный момент разрабатывается возможность альтернативной технологии, которая заключается в замене проводов на оптическое волокно, проводящее свет. </p>
+</div>
+<div class="item-footer">
+<a href="#" class="link"><span>Подробнее</span></a>
+</div>
+</div>
+</div>
+
+<div class="kasavin-egedsa">
+<div class="kipasa-demulas">
+<div class="amon-saneka anchor"></div>
+<div class="muneka-sconsu">
+<h3>Принцип работы</h3>
+<p>Создание оптических компьютеров в корне меняет саму концепцию программирования, которая основана на последовательности нулей и единиц. С другой стороны, процесс передачи данных будет быстрее, если использовать не двоичную систему, а световые импульсы.</p>
+</div>
+<div class="item-footer">
+<a href="#" class="link"><span>Подробнее</span></a>
+</div>
+</div>
+</div>
+
+<div class="kasavin-egedsa">
+<div class="kipasa-demulas">
+<div class="amon-saneka video"></div>
+<div class="muneka-sconsu">
+<h3>Применение технологий</h3>
+<p>ля выполнения всех необходимых процессов лазерные принтеры, сканеры, компакт-диски используют свет. Оптические технологии способны обеспечить высокоскоростное подключение к сетям, аналоговые устройства отстают, причем заметно. Различные операции с лазерами применяются для того, чтобы увеличить срок службы оборудования, улучшая его прочность, пластичность и поверхность. </p>
+</div>
+<div class="item-footer">
+<a href="#" class="link"><span>Подробнее</span></a>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</body»
+</html>
